@@ -1,0 +1,25 @@
+.user-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.user-body .top-item{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.user-body .bottom-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 350px;
+    max-height: 400px;
+    flex-wrap: wrap;
+}
+.user-body .bottom-item .item{
+    border: 2px solid #663399;
+    padding: 20px;
+    border-radius: 5px;
+}
